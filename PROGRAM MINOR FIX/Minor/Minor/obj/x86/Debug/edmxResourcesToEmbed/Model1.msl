@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="databaseModelStoreContainer" CdmEntityContainer="databaseEntities">
+    <EntitySetMapping Name="db_Karyawan">
+      <EntityTypeMapping TypeName="databaseModel.db_Karyawan">
+        <MappingFragment StoreEntitySet="db_Karyawan">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+          <ScalarProperty Name="Kota_Karyawan" ColumnName="Kota_Karyawan" />
+          <ScalarProperty Name="Alamat_Karyawan" ColumnName="Alamat_Karyawan" />
+          <ScalarProperty Name="Email_Karyawan" ColumnName="Email_Karyawan" />
+          <ScalarProperty Name="No_Telepon_Karyawan" ColumnName="No_Telepon_Karyawan" />
+          <ScalarProperty Name="Jenis_Kelamin_Karyawan" ColumnName="Jenis_Kelamin_Karyawan" />
+          <ScalarProperty Name="Tanggal_Lahir_Karyawan" ColumnName="Tanggal_Lahir_Karyawan" />
+          <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+          <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Pelanggan">
+      <EntityTypeMapping TypeName="databaseModel.db_Pelanggan">
+        <MappingFragment StoreEntitySet="db_Pelanggan">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Kota_Pelanggan" ColumnName="Kota_Pelanggan" />
+          <ScalarProperty Name="Alamat_Pelanggan" ColumnName="Alamat_Pelanggan" />
+          <ScalarProperty Name="Email_Pelanggan" ColumnName="Email_Pelanggan" />
+          <ScalarProperty Name="No_Telepon_Pelanggan" ColumnName="No_Telepon_Pelanggan" />
+          <ScalarProperty Name="Jenis_Kelamin_Pelanggan" ColumnName="Jenis_Kelamin_Pelanggan" />
+          <ScalarProperty Name="Nama_Pelanggan" ColumnName="Nama_Pelanggan" />
+          <ScalarProperty Name="ID_Pelanggan" ColumnName="ID_Pelanggan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Detail_Form_Penjualan_Eceran">
+      <EntityTypeMapping TypeName="databaseModel.db_Detail_Form_Penjualan_Eceran">
+        <MappingFragment StoreEntitySet="db_Detail_Form_Penjualan_Eceran">
+          <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+          <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+          <ScalarProperty Name="Harga" ColumnName="Harga" />
+          <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+          <ScalarProperty Name="No_Form_Penjualan_Eceran" ColumnName="No_Form_Penjualan_Eceran" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Detail_Form_Penjualan_Grosir">
+      <EntityTypeMapping TypeName="databaseModel.db_Detail_Form_Penjualan_Grosir">
+        <MappingFragment StoreEntitySet="db_Detail_Form_Penjualan_Grosir">
+          <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+          <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+          <ScalarProperty Name="Harga" ColumnName="Harga" />
+          <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+          <ScalarProperty Name="No_Form_Penjualan_Grosir" ColumnName="No_Form_Penjualan_Grosir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Detail_Retur_Pembelian">
+      <EntityTypeMapping TypeName="databaseModel.db_Detail_Retur_Pembelian">
+        <MappingFragment StoreEntitySet="db_Detail_Retur_Pembelian">
+          <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+          <ScalarProperty Name="Deskripsi" ColumnName="Deskripsi" />
+          <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+          <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+          <ScalarProperty Name="No_Retur_Pembelian" ColumnName="No_Retur_Pembelian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Detail_Retur_Penjualan">
+      <EntityTypeMapping TypeName="databaseModel.db_Detail_Retur_Penjualan">
+        <MappingFragment StoreEntitySet="db_Detail_Retur_Penjualan">
+          <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+          <ScalarProperty Name="Deskripsi" ColumnName="Deskripsi" />
+          <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+          <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+          <ScalarProperty Name="No_Retur_Penjualan" ColumnName="No_Retur_Penjualan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Detail_Faktur_Pemesanan">
+      <EntityTypeMapping TypeName="databaseModel.db_Detail_Faktur_Pemesanan">
+        <MappingFragment StoreEntitySet="db_Detail_Faktur_Pemesanan">
+          <ScalarProperty Name="Harga" ColumnName="Harga" />
+          <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+          <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+          <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+          <ScalarProperty Name="No_Faktur_Pemesanan" ColumnName="No_Faktur_Pemesanan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Faktur_Pemesanan">
+      <EntityTypeMapping TypeName="databaseModel.db_Faktur_Pemesanan">
+        <MappingFragment StoreEntitySet="db_Faktur_Pemesanan">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="ID_Supplier" ColumnName="ID_Supplier" />
+          <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+          <ScalarProperty Name="No_Faktur_Pemesanan" ColumnName="No_Faktur_Pemesanan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Form_Penjualan_Eceran">
+      <EntityTypeMapping TypeName="databaseModel.db_Form_Penjualan_Eceran">
+        <MappingFragment StoreEntitySet="db_Form_Penjualan_Eceran">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+          <ScalarProperty Name="No_Form_Penjualan_Eceran" ColumnName="No_Form_Penjualan_Eceran" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Form_Penjualan_Grosir">
+      <EntityTypeMapping TypeName="databaseModel.db_Form_Penjualan_Grosir">
+        <MappingFragment StoreEntitySet="db_Form_Penjualan_Grosir">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="ID_Pelanggan" ColumnName="ID_Pelanggan" />
+          <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+          <ScalarProperty Name="No_Form_Penjualan_Grosir" ColumnName="No_Form_Penjualan_Grosir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Retur_Pembelian">
+      <EntityTypeMapping TypeName="databaseModel.db_Retur_Pembelian">
+        <MappingFragment StoreEntitySet="db_Retur_Pembelian">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="No_Retur_Penjualan" ColumnName="No_Retur_Penjualan" />
+          <ScalarProperty Name="No_Faktur_Pemesanan" ColumnName="No_Faktur_Pemesanan" />
+          <ScalarProperty Name="No_Retur_Pembelian" ColumnName="No_Retur_Pembelian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Retur_Penjualan">
+      <EntityTypeMapping TypeName="databaseModel.db_Retur_Penjualan">
+        <MappingFragment StoreEntitySet="db_Retur_Penjualan">
+          <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+          <ScalarProperty Name="No_Form_Penjualan_Grosir" ColumnName="No_Form_Penjualan_Grosir" />
+          <ScalarProperty Name="No_Retur_Penjualan" ColumnName="No_Retur_Penjualan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Supplier">
+      <EntityTypeMapping TypeName="databaseModel.db_Supplier">
+        <MappingFragment StoreEntitySet="db_Supplier">
+          <ScalarProperty Name="Lama_Kontrak" ColumnName="Lama_Kontrak" />
+          <ScalarProperty Name="Kodepos" ColumnName="Kodepos" />
+          <ScalarProperty Name="Kota_Supplier" ColumnName="Kota_Supplier" />
+          <ScalarProperty Name="Alamat_Supplier" ColumnName="Alamat_Supplier" />
+          <ScalarProperty Name="Email_Supplier" ColumnName="Email_Supplier" />
+          <ScalarProperty Name="No_Telepon_Supplier" ColumnName="No_Telepon_Supplier" />
+          <ScalarProperty Name="Nama_Supplier" ColumnName="Nama_Supplier" />
+          <ScalarProperty Name="ID_Supplier" ColumnName="ID_Supplier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="db_Barang">
+      <EntityTypeMapping TypeName="databaseModel.db_Barang">
+        <MappingFragment StoreEntitySet="db_Barang">
+          <ScalarProperty Name="ID_Supplier" ColumnName="ID_Supplier" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Harga_Member" ColumnName="Harga_Member" />
+          <ScalarProperty Name="Harga_Jual" ColumnName="Harga_Jual" />
+          <ScalarProperty Name="Harga_Beli" ColumnName="Harga_Beli" />
+          <ScalarProperty Name="Jenis_Barang" ColumnName="Jenis_Barang" />
+          <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+          <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

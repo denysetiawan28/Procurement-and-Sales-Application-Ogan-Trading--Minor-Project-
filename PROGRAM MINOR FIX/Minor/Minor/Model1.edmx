@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="databaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="databaseModelStoreContainer">
+          <EntitySet Name="db_Barang" EntityType="databaseModel.Store.db_Barang" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Detail_Faktur_Pemesanan" EntityType="databaseModel.Store.db_Detail_Faktur_Pemesanan" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Detail_Form_Penjualan_Eceran" EntityType="databaseModel.Store.db_Detail_Form_Penjualan_Eceran" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Detail_Form_Penjualan_Grosir" EntityType="databaseModel.Store.db_Detail_Form_Penjualan_Grosir" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Detail_Retur_Pembelian" EntityType="databaseModel.Store.db_Detail_Retur_Pembelian" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Detail_Retur_Penjualan" EntityType="databaseModel.Store.db_Detail_Retur_Penjualan" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Faktur_Pemesanan" EntityType="databaseModel.Store.db_Faktur_Pemesanan" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Form_Penjualan_Eceran" EntityType="databaseModel.Store.db_Form_Penjualan_Eceran" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Form_Penjualan_Grosir" EntityType="databaseModel.Store.db_Form_Penjualan_Grosir" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Karyawan" EntityType="databaseModel.Store.db_Karyawan" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Pelanggan" EntityType="databaseModel.Store.db_Pelanggan" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Retur_Pembelian" EntityType="databaseModel.Store.db_Retur_Pembelian" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Retur_Penjualan" EntityType="databaseModel.Store.db_Retur_Penjualan" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="db_Supplier" EntityType="databaseModel.Store.db_Supplier" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="db_Barang">
+          <Key>
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Name="ID_Barang" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Nama_Barang" Type="varchar" MaxLength="30" />
+          <Property Name="Jenis_Barang" Type="varchar" MaxLength="30" />
+          <Property Name="Harga_Beli" Type="int" />
+          <Property Name="Harga_Jual" Type="int" />
+          <Property Name="Harga_Member" Type="int" />
+          <Property Name="Stock" Type="int" />
+          <Property Name="ID_Supplier" Type="char" MaxLength="6" />
+        </EntityType>
+        <EntityType Name="db_Detail_Faktur_Pemesanan">
+          <Key>
+            <PropertyRef Name="No_Faktur_Pemesanan" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Name="No_Faktur_Pemesanan" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Barang" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Jumlah" Type="int" />
+          <Property Name="Nama_Barang" Type="varchar" MaxLength="30" />
+          <Property Name="Harga" Type="int" />
+        </EntityType>
+        <EntityType Name="db_Detail_Form_Penjualan_Eceran">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Eceran" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Name="No_Form_Penjualan_Eceran" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Barang" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Harga" Type="int" />
+          <Property Name="Jumlah" Type="int" />
+          <Property Name="Nama_Barang" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Detail_Form_Penjualan_Grosir">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Grosir" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Name="No_Form_Penjualan_Grosir" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Barang" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Harga" Type="int" />
+          <Property Name="Jumlah" Type="int" />
+          <Property Name="Nama_Barang" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Detail_Retur_Pembelian">
+          <Key>
+            <PropertyRef Name="No_Retur_Pembelian" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Name="No_Retur_Pembelian" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Barang" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Jumlah" Type="int" />
+          <Property Name="Deskripsi" Type="varchar" MaxLength="50" />
+          <Property Name="Nama_Barang" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Detail_Retur_Penjualan">
+          <Key>
+            <PropertyRef Name="No_Retur_Penjualan" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Name="No_Retur_Penjualan" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Barang" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Jumlah" Type="int" />
+          <Property Name="Deskripsi" Type="varchar" MaxLength="50" />
+          <Property Name="Nama_Barang" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Faktur_Pemesanan">
+          <Key>
+            <PropertyRef Name="No_Faktur_Pemesanan" />
+          </Key>
+          <Property Name="No_Faktur_Pemesanan" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Karyawan" Type="char" MaxLength="6" />
+          <Property Name="ID_Supplier" Type="char" MaxLength="6" />
+          <Property Name="Tanggal" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Form_Penjualan_Eceran">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Eceran" />
+          </Key>
+          <Property Name="No_Form_Penjualan_Eceran" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Karyawan" Type="char" MaxLength="6" />
+          <Property Name="Tanggal" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Form_Penjualan_Grosir">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Grosir" />
+          </Key>
+          <Property Name="No_Form_Penjualan_Grosir" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="ID_Karyawan" Type="char" MaxLength="6" />
+          <Property Name="ID_Pelanggan" Type="char" MaxLength="6" />
+          <Property Name="Tanggal" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Karyawan">
+          <Key>
+            <PropertyRef Name="ID_Karyawan" />
+          </Key>
+          <Property Name="ID_Karyawan" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Nama_Karyawan" Type="varchar" MaxLength="30" />
+          <Property Name="Tanggal_Lahir_Karyawan" Type="date" />
+          <Property Name="Jenis_Kelamin_Karyawan" Type="varchar" MaxLength="9" />
+          <Property Name="No_Telepon_Karyawan" Type="varchar" MaxLength="15" />
+          <Property Name="Email_Karyawan" Type="varchar" MaxLength="30" />
+          <Property Name="Alamat_Karyawan" Type="varchar" MaxLength="50" />
+          <Property Name="Kota_Karyawan" Type="varchar" MaxLength="25" />
+          <Property Name="Jabatan" Type="varchar" MaxLength="20" />
+          <Property Name="Password" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="db_Pelanggan">
+          <Key>
+            <PropertyRef Name="ID_Pelanggan" />
+          </Key>
+          <Property Name="ID_Pelanggan" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Nama_Pelanggan" Type="varchar" MaxLength="30" />
+          <Property Name="Jenis_Kelamin_Pelanggan" Type="varchar" MaxLength="9" />
+          <Property Name="No_Telepon_Pelanggan" Type="varchar" MaxLength="15" />
+          <Property Name="Email_Pelanggan" Type="varchar" MaxLength="30" />
+          <Property Name="Alamat_Pelanggan" Type="varchar" MaxLength="50" />
+          <Property Name="Kota_Pelanggan" Type="varchar" MaxLength="30" />
+          <Property Name="Count" Type="int" />
+        </EntityType>
+        <EntityType Name="db_Retur_Pembelian">
+          <Key>
+            <PropertyRef Name="No_Retur_Pembelian" />
+          </Key>
+          <Property Name="No_Retur_Pembelian" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="No_Faktur_Pemesanan" Type="char" MaxLength="10" />
+          <Property Name="No_Retur_Penjualan" Type="char" MaxLength="10" />
+          <Property Name="Tanggal" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Retur_Penjualan">
+          <Key>
+            <PropertyRef Name="No_Retur_Penjualan" />
+          </Key>
+          <Property Name="No_Retur_Penjualan" Type="char" Nullable="false" MaxLength="10" />
+          <Property Name="No_Form_Penjualan_Grosir" Type="char" MaxLength="10" />
+          <Property Name="Tanggal" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="db_Supplier">
+          <Key>
+            <PropertyRef Name="ID_Supplier" />
+          </Key>
+          <Property Name="ID_Supplier" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Nama_Supplier" Type="varchar" MaxLength="30" />
+          <Property Name="No_Telepon_Supplier" Type="varchar" MaxLength="15" />
+          <Property Name="Email_Supplier" Type="varchar" MaxLength="30" />
+          <Property Name="Alamat_Supplier" Type="varchar" MaxLength="50" />
+          <Property Name="Kota_Supplier" Type="varchar" MaxLength="30" />
+          <Property Name="Kodepos" Type="int" />
+          <Property Name="Lama_Kontrak" Type="int" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="databaseModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="databaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="db_Karyawan" EntityType="databaseModel.db_Karyawan" />
+          <EntitySet Name="db_Pelanggan" EntityType="databaseModel.db_Pelanggan" />
+          <EntitySet Name="db_Detail_Form_Penjualan_Eceran" EntityType="databaseModel.db_Detail_Form_Penjualan_Eceran" />
+          <EntitySet Name="db_Detail_Form_Penjualan_Grosir" EntityType="databaseModel.db_Detail_Form_Penjualan_Grosir" />
+          <EntitySet Name="db_Detail_Retur_Pembelian" EntityType="databaseModel.db_Detail_Retur_Pembelian" />
+          <EntitySet Name="db_Detail_Retur_Penjualan" EntityType="databaseModel.db_Detail_Retur_Penjualan" />
+          <EntitySet Name="db_Detail_Faktur_Pemesanan" EntityType="databaseModel.db_Detail_Faktur_Pemesanan" />
+          <EntitySet Name="db_Faktur_Pemesanan" EntityType="databaseModel.db_Faktur_Pemesanan" />
+          <EntitySet Name="db_Form_Penjualan_Eceran" EntityType="databaseModel.db_Form_Penjualan_Eceran" />
+          <EntitySet Name="db_Form_Penjualan_Grosir" EntityType="databaseModel.db_Form_Penjualan_Grosir" />
+          <EntitySet Name="db_Retur_Pembelian" EntityType="databaseModel.db_Retur_Pembelian" />
+          <EntitySet Name="db_Retur_Penjualan" EntityType="databaseModel.db_Retur_Penjualan" />
+          <EntitySet Name="db_Supplier" EntityType="databaseModel.db_Supplier" />
+          <EntitySet Name="db_Barang" EntityType="databaseModel.db_Barang" />
+          </EntityContainer>
+        <EntityType Name="db_Karyawan">
+          <Key>
+            <PropertyRef Name="ID_Karyawan" />
+          </Key>
+          <Property Type="String" Name="ID_Karyawan" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Nama_Karyawan" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="Tanggal_Lahir_Karyawan" />
+          <Property Type="String" Name="Jenis_Kelamin_Karyawan" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="No_Telepon_Karyawan" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Email_Karyawan" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Alamat_Karyawan" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Kota_Karyawan" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Jabatan" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Password" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Pelanggan">
+          <Key>
+            <PropertyRef Name="ID_Pelanggan" />
+          </Key>
+          <Property Type="String" Name="ID_Pelanggan" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Nama_Pelanggan" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Jenis_Kelamin_Pelanggan" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="No_Telepon_Pelanggan" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Email_Pelanggan" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Alamat_Pelanggan" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Kota_Pelanggan" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Count" />
+        </EntityType>
+        <EntityType Name="db_Detail_Form_Penjualan_Eceran">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Eceran" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Type="String" Name="No_Form_Penjualan_Eceran" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Barang" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Int32" Name="Harga" />
+          <Property Type="Int32" Name="Jumlah" />
+          <Property Type="String" Name="Nama_Barang" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Detail_Form_Penjualan_Grosir">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Grosir" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Type="String" Name="No_Form_Penjualan_Grosir" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Barang" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Int32" Name="Harga" />
+          <Property Type="Int32" Name="Jumlah" />
+          <Property Type="String" Name="Nama_Barang" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Detail_Retur_Pembelian">
+          <Key>
+            <PropertyRef Name="No_Retur_Pembelian" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Type="String" Name="No_Retur_Pembelian" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Barang" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Int32" Name="Jumlah" />
+          <Property Type="String" Name="Deskripsi" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Nama_Barang" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Detail_Retur_Penjualan">
+          <Key>
+            <PropertyRef Name="No_Retur_Penjualan" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Type="String" Name="No_Retur_Penjualan" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Barang" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Int32" Name="Jumlah" />
+          <Property Type="String" Name="Deskripsi" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Nama_Barang" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Detail_Faktur_Pemesanan">
+          <Key>
+            <PropertyRef Name="No_Faktur_Pemesanan" />
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Type="String" Name="No_Faktur_Pemesanan" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Barang" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Int32" Name="Jumlah" />
+          <Property Type="String" Name="Nama_Barang" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Harga" />
+        </EntityType>
+        <EntityType Name="db_Faktur_Pemesanan">
+          <Key>
+            <PropertyRef Name="No_Faktur_Pemesanan" />
+          </Key>
+          <Property Type="String" Name="No_Faktur_Pemesanan" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Karyawan" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Supplier" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Tanggal" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Form_Penjualan_Eceran">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Eceran" />
+          </Key>
+          <Property Type="String" Name="No_Form_Penjualan_Eceran" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Karyawan" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Tanggal" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Form_Penjualan_Grosir">
+          <Key>
+            <PropertyRef Name="No_Form_Penjualan_Grosir" />
+          </Key>
+          <Property Type="String" Name="No_Form_Penjualan_Grosir" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Karyawan" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ID_Pelanggan" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Tanggal" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Retur_Pembelian">
+          <Key>
+            <PropertyRef Name="No_Retur_Pembelian" />
+          </Key>
+          <Property Type="String" Name="No_Retur_Pembelian" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="No_Faktur_Pemesanan" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="No_Retur_Penjualan" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Tanggal" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Retur_Penjualan">
+          <Key>
+            <PropertyRef Name="No_Retur_Penjualan" />
+          </Key>
+          <Property Type="String" Name="No_Retur_Penjualan" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="No_Form_Penjualan_Grosir" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Tanggal" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="db_Supplier">
+          <Key>
+            <PropertyRef Name="ID_Supplier" />
+          </Key>
+          <Property Type="String" Name="ID_Supplier" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Nama_Supplier" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="No_Telepon_Supplier" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Email_Supplier" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Alamat_Supplier" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Kota_Supplier" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Kodepos" />
+          <Property Type="Int32" Name="Lama_Kontrak" />
+        </EntityType>
+        <EntityType Name="db_Barang">
+          <Key>
+            <PropertyRef Name="ID_Barang" />
+          </Key>
+          <Property Type="String" Name="ID_Barang" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Nama_Barang" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Jenis_Barang" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Harga_Beli" />
+          <Property Type="Int32" Name="Harga_Jual" />
+          <Property Type="Int32" Name="Harga_Member" />
+          <Property Type="Int32" Name="Stock" />
+          <Property Type="String" Name="ID_Supplier" MaxLength="6" FixedLength="true" Unicode="false" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="databaseModelStoreContainer" CdmEntityContainer="databaseEntities">
+          <EntitySetMapping Name="db_Karyawan">
+            <EntityTypeMapping TypeName="databaseModel.db_Karyawan">
+              <MappingFragment StoreEntitySet="db_Karyawan">
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Kota_Karyawan" ColumnName="Kota_Karyawan" />
+                <ScalarProperty Name="Alamat_Karyawan" ColumnName="Alamat_Karyawan" />
+                <ScalarProperty Name="Email_Karyawan" ColumnName="Email_Karyawan" />
+                <ScalarProperty Name="No_Telepon_Karyawan" ColumnName="No_Telepon_Karyawan" />
+                <ScalarProperty Name="Jenis_Kelamin_Karyawan" ColumnName="Jenis_Kelamin_Karyawan" />
+                <ScalarProperty Name="Tanggal_Lahir_Karyawan" ColumnName="Tanggal_Lahir_Karyawan" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Pelanggan">
+            <EntityTypeMapping TypeName="databaseModel.db_Pelanggan">
+              <MappingFragment StoreEntitySet="db_Pelanggan">
+                <ScalarProperty Name="Count" ColumnName="Count" />
+                <ScalarProperty Name="Kota_Pelanggan" ColumnName="Kota_Pelanggan" />
+                <ScalarProperty Name="Alamat_Pelanggan" ColumnName="Alamat_Pelanggan" />
+                <ScalarProperty Name="Email_Pelanggan" ColumnName="Email_Pelanggan" />
+                <ScalarProperty Name="No_Telepon_Pelanggan" ColumnName="No_Telepon_Pelanggan" />
+                <ScalarProperty Name="Jenis_Kelamin_Pelanggan" ColumnName="Jenis_Kelamin_Pelanggan" />
+                <ScalarProperty Name="Nama_Pelanggan" ColumnName="Nama_Pelanggan" />
+                <ScalarProperty Name="ID_Pelanggan" ColumnName="ID_Pelanggan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Detail_Form_Penjualan_Eceran">
+            <EntityTypeMapping TypeName="databaseModel.db_Detail_Form_Penjualan_Eceran">
+              <MappingFragment StoreEntitySet="db_Detail_Form_Penjualan_Eceran">
+                <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+                <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+                <ScalarProperty Name="Harga" ColumnName="Harga" />
+                <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+                <ScalarProperty Name="No_Form_Penjualan_Eceran" ColumnName="No_Form_Penjualan_Eceran" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Detail_Form_Penjualan_Grosir">
+            <EntityTypeMapping TypeName="databaseModel.db_Detail_Form_Penjualan_Grosir">
+              <MappingFragment StoreEntitySet="db_Detail_Form_Penjualan_Grosir">
+                <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+                <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+                <ScalarProperty Name="Harga" ColumnName="Harga" />
+                <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+                <ScalarProperty Name="No_Form_Penjualan_Grosir" ColumnName="No_Form_Penjualan_Grosir" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Detail_Retur_Pembelian">
+            <EntityTypeMapping TypeName="databaseModel.db_Detail_Retur_Pembelian">
+              <MappingFragment StoreEntitySet="db_Detail_Retur_Pembelian">
+                <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+                <ScalarProperty Name="Deskripsi" ColumnName="Deskripsi" />
+                <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+                <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+                <ScalarProperty Name="No_Retur_Pembelian" ColumnName="No_Retur_Pembelian" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Detail_Retur_Penjualan">
+            <EntityTypeMapping TypeName="databaseModel.db_Detail_Retur_Penjualan">
+              <MappingFragment StoreEntitySet="db_Detail_Retur_Penjualan">
+                <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+                <ScalarProperty Name="Deskripsi" ColumnName="Deskripsi" />
+                <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+                <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+                <ScalarProperty Name="No_Retur_Penjualan" ColumnName="No_Retur_Penjualan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Detail_Faktur_Pemesanan">
+            <EntityTypeMapping TypeName="databaseModel.db_Detail_Faktur_Pemesanan">
+              <MappingFragment StoreEntitySet="db_Detail_Faktur_Pemesanan">
+                <ScalarProperty Name="Harga" ColumnName="Harga" />
+                <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+                <ScalarProperty Name="Jumlah" ColumnName="Jumlah" />
+                <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+                <ScalarProperty Name="No_Faktur_Pemesanan" ColumnName="No_Faktur_Pemesanan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Faktur_Pemesanan">
+            <EntityTypeMapping TypeName="databaseModel.db_Faktur_Pemesanan">
+              <MappingFragment StoreEntitySet="db_Faktur_Pemesanan">
+                <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+                <ScalarProperty Name="ID_Supplier" ColumnName="ID_Supplier" />
+                <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+                <ScalarProperty Name="No_Faktur_Pemesanan" ColumnName="No_Faktur_Pemesanan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Form_Penjualan_Eceran">
+            <EntityTypeMapping TypeName="databaseModel.db_Form_Penjualan_Eceran">
+              <MappingFragment StoreEntitySet="db_Form_Penjualan_Eceran">
+                <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+                <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+                <ScalarProperty Name="No_Form_Penjualan_Eceran" ColumnName="No_Form_Penjualan_Eceran" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Form_Penjualan_Grosir">
+            <EntityTypeMapping TypeName="databaseModel.db_Form_Penjualan_Grosir">
+              <MappingFragment StoreEntitySet="db_Form_Penjualan_Grosir">
+                <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+                <ScalarProperty Name="ID_Pelanggan" ColumnName="ID_Pelanggan" />
+                <ScalarProperty Name="ID_Karyawan" ColumnName="ID_Karyawan" />
+                <ScalarProperty Name="No_Form_Penjualan_Grosir" ColumnName="No_Form_Penjualan_Grosir" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Retur_Pembelian">
+            <EntityTypeMapping TypeName="databaseModel.db_Retur_Pembelian">
+              <MappingFragment StoreEntitySet="db_Retur_Pembelian">
+                <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+                <ScalarProperty Name="No_Retur_Penjualan" ColumnName="No_Retur_Penjualan" />
+                <ScalarProperty Name="No_Faktur_Pemesanan" ColumnName="No_Faktur_Pemesanan" />
+                <ScalarProperty Name="No_Retur_Pembelian" ColumnName="No_Retur_Pembelian" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Retur_Penjualan">
+            <EntityTypeMapping TypeName="databaseModel.db_Retur_Penjualan">
+              <MappingFragment StoreEntitySet="db_Retur_Penjualan">
+                <ScalarProperty Name="Tanggal" ColumnName="Tanggal" />
+                <ScalarProperty Name="No_Form_Penjualan_Grosir" ColumnName="No_Form_Penjualan_Grosir" />
+                <ScalarProperty Name="No_Retur_Penjualan" ColumnName="No_Retur_Penjualan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Supplier">
+            <EntityTypeMapping TypeName="databaseModel.db_Supplier">
+              <MappingFragment StoreEntitySet="db_Supplier">
+                <ScalarProperty Name="Lama_Kontrak" ColumnName="Lama_Kontrak" />
+                <ScalarProperty Name="Kodepos" ColumnName="Kodepos" />
+                <ScalarProperty Name="Kota_Supplier" ColumnName="Kota_Supplier" />
+                <ScalarProperty Name="Alamat_Supplier" ColumnName="Alamat_Supplier" />
+                <ScalarProperty Name="Email_Supplier" ColumnName="Email_Supplier" />
+                <ScalarProperty Name="No_Telepon_Supplier" ColumnName="No_Telepon_Supplier" />
+                <ScalarProperty Name="Nama_Supplier" ColumnName="Nama_Supplier" />
+                <ScalarProperty Name="ID_Supplier" ColumnName="ID_Supplier" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="db_Barang">
+            <EntityTypeMapping TypeName="databaseModel.db_Barang">
+              <MappingFragment StoreEntitySet="db_Barang">
+                <ScalarProperty Name="ID_Supplier" ColumnName="ID_Supplier" />
+                <ScalarProperty Name="Stock" ColumnName="Stock" />
+                <ScalarProperty Name="Harga_Member" ColumnName="Harga_Member" />
+                <ScalarProperty Name="Harga_Jual" ColumnName="Harga_Jual" />
+                <ScalarProperty Name="Harga_Beli" ColumnName="Harga_Beli" />
+                <ScalarProperty Name="Jenis_Barang" ColumnName="Jenis_Barang" />
+                <ScalarProperty Name="Nama_Barang" ColumnName="Nama_Barang" />
+                <ScalarProperty Name="ID_Barang" ColumnName="ID_Barang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="databaseModel.db_Karyawan" Width="1.5" PointX="2.125" PointY="0.5" Height="2.9417936197916674" />
+        <EntityTypeShape EntityType="databaseModel.db_Pelanggan" Width="1.5" PointX="3.75" PointY="0.5" Height="2.5571907552083388" />
+        <EntityTypeShape EntityType="databaseModel.db_Detail_Form_Penjualan_Eceran" Width="1.5" PointX="3.875" PointY="5.75" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="databaseModel.db_Detail_Form_Penjualan_Grosir" Width="1.5" PointX="2.25" PointY="5.75" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="databaseModel.db_Detail_Retur_Pembelian" Width="1.5" PointX="7.125" PointY="5.75" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="databaseModel.db_Detail_Retur_Penjualan" Width="1.5" PointX="0.5" PointY="5.75" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="databaseModel.db_Detail_Faktur_Pemesanan" Width="1.5" PointX="5.5" PointY="5.75" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="databaseModel.db_Faktur_Pemesanan" Width="1.5" PointX="5.5" PointY="3.875" Height="1.7879850260416674" />
+        <EntityTypeShape EntityType="databaseModel.db_Form_Penjualan_Eceran" Width="1.5" PointX="3.875" PointY="3.875" Height="1.5956835937500031" />
+        <EntityTypeShape EntityType="databaseModel.db_Form_Penjualan_Grosir" Width="1.5" PointX="2.25" PointY="3.875" Height="1.7879850260416674" />
+        <EntityTypeShape EntityType="databaseModel.db_Retur_Pembelian" Width="1.5" PointX="7.125" PointY="3.875" Height="1.7879850260416674" />
+        <EntityTypeShape EntityType="databaseModel.db_Retur_Penjualan" Width="1.5" PointX="0.5" PointY="3.875" Height="1.5956835937500102" />
+        <EntityTypeShape EntityType="databaseModel.db_Supplier" Width="1.5" PointX="5.375" PointY="0.5" Height="2.5571907552083388" />
+        <EntityTypeShape EntityType="databaseModel.db_Barang" Width="1.5" PointX="0.5" PointY="0.5" Height="2.5571907552083388" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,204 @@
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\bin\Debug\Minor.exe
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\bin\Debug\Minor.pdb
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\Minor.exe
+d:\microsoft\visual studio 2010\Projects\Minor\Minor\obj\x86\Debug\Minor.pdb
+C:\Users\KEVIN\Desktop\Minor\Minor\obj\x86\Debug\Minor.exe
+C:\Users\KEVIN\Desktop\Minor\Minor\obj\x86\Debug\Minor.pdb
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.exe
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.pdb
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\bin\Debug\Minor.exe
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\bin\Debug\Minor.pdb
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Sony\Desktop\L 4893 zaa\education\college\05PGM\Information System Minor Project\MINOR A!\isi\BAB 4\Minor\Minor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.exe
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.pdb
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\bin\Debug\Minor.exe
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\bin\Debug\Minor.pdb
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Login.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.csproj.GenerateResource.Cache
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\bin\Debug\Minor.exe.config
+C:\Users\KEVIN\Desktop\app kelompok gue versi liza\Minor\Minor\obj\x86\Debug\Minor.FormMDI.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\bin\Debug\Minor.exe.config
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.exe
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.pdb
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\bin\Debug\Minor.exe
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\bin\Debug\Minor.pdb
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Login.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.FormMDI.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.csproj.GenerateResource.Cache
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Karyawan.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.csprojResolveAssemblyReference.cache
+G:\Minor\Minor\bin\Debug\Minor.exe.config
+G:\Minor\Minor\obj\x86\Debug\Minor.exe
+G:\Minor\Minor\obj\x86\Debug\Minor.pdb
+G:\Minor\Minor\bin\Debug\Minor.exe
+G:\Minor\Minor\bin\Debug\Minor.pdb
+G:\Minor\Minor\obj\x86\Debug\Minor.csprojResolveAssemblyReference.cache
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Login.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Karyawan.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.FormMDI.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+G:\Minor\Minor\obj\x86\Debug\Minor.csproj.GenerateResource.Cache
+F:\Minor\Minor\bin\Debug\Minor.exe.config
+F:\Minor\Minor\obj\x86\Debug\Minor.exe
+F:\Minor\Minor\obj\x86\Debug\Minor.pdb
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\bin\Debug\Minor.exe.config
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.exe
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.pdb
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\bin\Debug\Minor.exe
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\bin\Debug\Minor.pdb
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.csprojResolveAssemblyReference.cache
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Login.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Karyawan.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.FormMDI.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.csproj.GenerateResource.Cache
+C:\Users\SyLvia\Desktop\MINOR A!\Minor\Minor\obj\x86\Debug\Minor.Form1.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualangrosir.resources
+C:\Users\KEVIN\Desktop\Minorsm\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualaneceran.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.exe.config
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.exe
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.pdb
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.exe
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.pdb
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.csprojResolveAssemblyReference.cache
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualaneceran.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualangrosir.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Login.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Karyawan.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormMDI.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+D:\Microsoft\Downloads\Compressed\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.csproj.GenerateResource.Cache
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.exe.config
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.exe
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.pdb
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.exe
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.pdb
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.csprojResolveAssemblyReference.cache
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualaneceran.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualangrosir.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Login.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Karyawan.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormMDI.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+D:\Microsoft\Desktop\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.csproj.GenerateResource.Cache
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.exe.config
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.exe
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.pdb
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.exe
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\bin\Debug\Minor.pdb
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.csprojResolveAssemblyReference.cache
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualaneceran.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.crysreportpenjualangrosir.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retail.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Pembelian.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Laporan_Retur_Penjualan.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Login.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Penjualan_Grosir.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormPenjRetail.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Barang.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Customer.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Karyawan.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Registrasi_Suuplier.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Pembelian.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Form_Retur_Penjualan.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormLaporan.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormMDI.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.FormPemesanan.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.Properties.Resources.resources
+D:\Microsoft\Desktop\Project\PROGRAM MINOR FIX\Minor\Minor\obj\x86\Debug\Minor.csproj.GenerateResource.Cache

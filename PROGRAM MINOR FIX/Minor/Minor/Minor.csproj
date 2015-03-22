@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{953AF83E-F42B-4CA5-AF7B-F47724FA9F42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Minor</RootNamespace>
+    <AssemblyName>Minor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="crysreportpenjualaneceran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crysreportpenjualaneceran.Designer.cs">
+      <DependentUpon>crysreportpenjualaneceran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crysreportpenjualangrosir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crysreportpenjualangrosir.Designer.cs">
+      <DependentUpon>crysreportpenjualangrosir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Laporan Retail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Laporan Retail.Designer.cs">
+      <DependentUpon>Form Laporan Retail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Laporan Retur Pembelian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Laporan Retur Pembelian.Designer.cs">
+      <DependentUpon>Form Laporan Retur Pembelian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Laporan Retur Penjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Laporan Retur Penjualan.Designer.cs">
+      <DependentUpon>Form Laporan Retur Penjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Login.Designer.cs">
+      <DependentUpon>Form Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Penjualan Grosir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Penjualan Grosir.Designer.cs">
+      <DependentUpon>Form Penjualan Grosir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Penjualan Retail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Penjualan Retail.Designer.cs">
+      <DependentUpon>Form Penjualan Retail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Registrasi Barang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Registrasi Barang.Designer.cs">
+      <DependentUpon>Form Registrasi Barang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Registrasi Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Registrasi Customer.Designer.cs">
+      <DependentUpon>Form Registrasi Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Registrasi Karyawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Registrasi Karyawan.Designer.cs">
+      <DependentUpon>Form Registrasi Karyawan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Registrasi Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Registrasi Supplier.Designer.cs">
+      <DependentUpon>Form Registrasi Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Retur Pembelian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Retur Pembelian.Designer.cs">
+      <DependentUpon>Form Retur Pembelian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Retur Penjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Retur Penjualan.Designer.cs">
+      <DependentUpon>Form Retur Penjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Laporan Grosir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Laporan Grosir.Designer.cs">
+      <DependentUpon>Form Laporan Grosir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMDI.Designer.cs">
+      <DependentUpon>FormMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPemesanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPemesanan.Designer.cs">
+      <DependentUpon>FormPemesanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formpenjualaneceran.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>formpenjualaneceran.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formpenjualangrosir.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>formpenjualangrosir.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="crysreportpenjualaneceran.resx">
+      <DependentUpon>crysreportpenjualaneceran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crysreportpenjualangrosir.resx">
+      <DependentUpon>crysreportpenjualangrosir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Laporan Retail.resx">
+      <DependentUpon>Form Laporan Retail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Laporan Retur Pembelian.resx">
+      <DependentUpon>Form Laporan Retur Pembelian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Laporan Retur Penjualan.resx">
+      <DependentUpon>Form Laporan Retur Penjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Login.resx">
+      <DependentUpon>Form Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Penjualan Grosir.resx">
+      <DependentUpon>Form Penjualan Grosir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Penjualan Retail.resx">
+      <DependentUpon>Form Penjualan Retail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Registrasi Barang.resx">
+      <DependentUpon>Form Registrasi Barang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Registrasi Customer.resx">
+      <DependentUpon>Form Registrasi Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Registrasi Karyawan.resx">
+      <DependentUpon>Form Registrasi Karyawan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Registrasi Supplier.resx">
+      <DependentUpon>Form Registrasi Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Retur Pembelian.resx">
+      <DependentUpon>Form Retur Pembelian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Retur Penjualan.resx">
+      <DependentUpon>Form Retur Penjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Laporan Grosir.resx">
+      <DependentUpon>Form Laporan Grosir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMDI.resx">
+      <DependentUpon>FormMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPemesanan.resx">
+      <DependentUpon>FormPemesanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formpenjualaneceran.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>formpenjualaneceran.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formpenjualangrosir.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>formpenjualangrosir.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="MyDataSet.xsc">
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MyDataSet.xss">
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\databaseEntities.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
